@@ -1,0 +1,84 @@
+.BrightonBusesTileView .flex-row-container {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -webkit-align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: stretch;
+  min-height: 0;
+}
+
+.BrightonBusesTileView .flex-column-container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -webkit-align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: stretch;
+  min-height: 0;
+}
+
+.BrightonBusesTileView {
+  height: 100%;
+}
+
+.BrightonBusesTileView .light {
+  font-weight: 100;
+}
+
+.BrightonBusesTileView .flex100 {
+  -webkit-flex: 1 0 0;
+  flex: 1 0 0;
+}
+
+.BrightonBusesTileView .status-wrapper {
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.BrightonBusesTileView .status-container {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.BrightonBusesTileView .status-container-portrait {
+  -webkit-justify-content: flex-start;
+  -webkit-align-items: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.BrightonBusesTileView .weekday,
+.BrightonBusesTileView .temperature,
+.BrightonBusesTileView .summary {
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.BrightonBusesTileView .powered-by {
+  font-size: 8pt;
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}
+
+.BrightonBusesTileView .powered-by-link {
+  text-decoration: none;
+}

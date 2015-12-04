@@ -1,0 +1,24 @@
+{
+  "name": "brighton-buses-vizia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "bus",
+    "brighton",
+    "brandwatch",
+    "vizia"
+  ],
+  "author": "Mikey",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "cssify": "^1.0.0",
+    "handlebars": "^4.0.5",
+    "hbsfy": "^2.4.1"
+  }
+}

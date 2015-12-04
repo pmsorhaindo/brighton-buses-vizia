@@ -1,0 +1,31 @@
+<div class="tile-main flex-column-container" data-targetfontsize="22">
+  {{#noData}}
+  <span class="noData">{{noData}}</span>
+  {{/noData}}
+  {{^noData}}
+  {{#isLandscape}}
+  <div class="status-wrapper flex100 flex-row-container">
+    <svg class="flex100">
+      <svg class="weather-icon vz-custom__tile--highlighted-fill" viewBox="0 0 256 256" preserveAspectRatio="xMaxYMid meet">
+        <use xlink:href="{{statusIcon}}#use-hook"></use>
+      </svg>
+    </svg>
+    <div class="status-container flex100 flex-column-container light">
+      {{/isLandscape}}
+      {{^isLandscape}}
+      <div class="status-wrapper flex100 flex-column-container">
+        <svg class="flex100">
+          <svg class="weather-icon vz-custom__tile--highlighted-fill" viewBox="0 0 256 256" preserveAspectRatio="xMidYMax meet">
+            <use xlink:href="{{statusIcon}}#use-hook"></use>
+          </svg>
+        </svg>
+        <div class="status-container-portrait flex100 flex-column-container light">
+          {{/isLandscape}}
+          <div class="weekday">{{day}}</div>
+          <div class="temperature vz-custom__tile--highlighted-color" data-targetfontsize="40">{{temperature}}</div>
+          <div class="summary">{{summary}}</div>
+        </div>
+      </div>
+      <div class="powered-by">Powered by <a class="powered-by-link vz-custom__tile--highlighted-color" href="//forecast.io/" target="_blank">Forecast</a></div>
+      {{/noData}}
+    </div>

@@ -4,7 +4,7 @@ const AutoUpdate = require('../lib/AutoUpdate');
 const dataParser = require('../lib/dataParser');
 const debounce = require('debounce');
 const resizeHelper = require('../lib/resizeHelper');
-const template = require('../templates/weathertile.html');
+const template = require('../templates/busestile.html');
 require('../css/BrightonBusesTileView.css');
 
 function elOrientationIsLandscape(el){
